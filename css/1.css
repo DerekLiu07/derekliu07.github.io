@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* overflow-x:hidden;  */
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  margin: auto;
+  height:2000px;
+  width: 1200px;
+ }
+  @media (max-width: 1280px) {
+    body {
+      width: 800px; } }
+  @media (max-width: 800px) {
+    body {
+      width: auto; } }
+
+/* header,
+nav,
+main,
+footer {
+  border: 1px solid #000; } */
+
+#navbar {
+    display: flex;
+    justify-content: space-between; }
+
+  .flex-item {
+    width: 100px;
+    height: 20px;
+    list-style: none;
+    font-family: 'Hind', sans-serif;;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: #696969;
+    padding-top:50px;
+  }
+
+  .aboutBtn {
+    text-align: right;
+  }
+
+nav {
+  /* margin-top: 50px; */
+  padding-bottom: 40px;
+  width: 1200px;
+  position: fixed;
+  background-color: white;
+  z-index: 9;
+  /* display: block; */
+  }
+  @media (max-width:1280px) {
+    nav{
+      width:900px;
+  }
+  @media (max-width:880px) {
+     nav{
+       width:90%;
+    }
+  }
+}
+
+div p{
+  width: 55%;
+  padding-top: 100px;
+  padding-left: 500px;
+
+}
+
+p{
+  text-align: left;
+  width: 1200px;
+  position: relative;
+  top:200px;
+  font-size: 1.4rem;
+  letter-spacing: 1.1px;
+  font-weight: lighter;
+  line-height: 1.5;
+  font-family: 'Hind', sans-serif;
+}
+@media (max-width:1280px) {
+  p{
+    width:900px;
+}
+@media (max-width:800px) {
+   p{
+     width:90%;
+  }
+}
+}
+
+h1{
+  position: relative;
+  top:200px;
+  font-size: 3rem;
+  letter-spacing: 1.4px;
+  line-height: 1.2;
+  font-weight: lighter;
+  font-family: 'Hind', sans-serif;
+  color: #696969;
+  text-decoration:none;
+}
+
+h2{
+  /* position: relative;
+  top:-60px; */
+  margin-top: -57px;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  line-height: 1.2;
+  font-weight: lighter;
+  font-family: 'Hind', sans-serif;
+  color: #696969;
+  text-decoration:none;
+}
+
+.h2-2{
+  margin-top: 40px;
+
+}
+
+h3{
+  text-align: right;
+  padding-bottom: 50px;
+  display: block;
+  position: relative;
+  top:120px;
+  font-family: 'Hind', sans-serif;
+  font-weight: normal;
+  color: #696969;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+@media (max-width:1280px){
+  h3{
+    position: relative;
+    top:1160px;
+    left: 100px;
+}
+@media (max-width:800px) {
+   h3{
+     position: relative;
+     left:-50px;
+     top: 0px;;
+  }
+}
+}
+
+.container-1{
+  float: left;
+  margin-top: 300px;
+  width: 1200px;
+  /* height:500px; */
+  position: relative;
+  top:100px;
+}
+
+@media (max-width:1280px){
+  .container-1{
+    width: 100%
+}
+@media (max-width:800px) {
+   .container-1{
+    width:100%;
+  }
+}
+}
+
+.container-2{
+  float: left;
+  margin-top: -30px;
+  /* width: 100%; */
+  /* height:500px; */
+  position: relative;
+  top:100px;
+}
+
+.container-3{
+  float: left;
+  margin-top: 50px;
+  width: 1200px;
+  /* height:500px; */
+  position: relative;
+  top:100px;
+}
+
+@media (max-width:1280px){
+  .container-3{
+    position: relative;
+    width: 100%
+}
+@media (max-width:800px) {
+   .container-3{
+    width:100%;
+  }
+}
+}
+
+.size1{
+    justify-content: space-between;
+    width:100%;
+    padding-bottom: 50px;
+    /* height:225px; */
+}
+@media (max-width:1280px){
+  .size1{
+    width: 100%
+}
+@media (max-width:880px) {
+  .size1{
+    width:100%;
+    height:100%;
+}
+}
+
+.size2{
+    width:585px;
+    padding-right: 30px;
+}
+
+@media (max-width:1280px){
+  .size2{
+    width: 100%
+}
+@media (max-width:800px) {
+   .size2{
+     position: relative;
+     left:-50px;
+     top: 0px;;
+  }
+}
+}
+
+.size3{
+    width:585px;
+    padding-top: 30px;
+}
+
+@media (max-width:1280px){
+  .size3{
+    width: 100%
+  }
+}
+
+@media (max-width:800px) {
+   .size3{
+     position: relative;
+     left:-50px;
+     top: 0px;
+  }
+}
+}
+
+footer {
+  /* position: fixed; */
+}
+
+a {
+  color: #696969;
+  text-decoration: none;
+  transition: cubic-bezier(.78,.16,.06,1) 500ms 0s;
+}
+
+a:visited {
+    color: #696969;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    /* text-decoration: underline; */
+}
+
+.fa-chevron-up {
+   position: fixed;
+   color: #696969;
+   bottom: 50px;
+   left: 120px;
+   z-index: 90;
+}
